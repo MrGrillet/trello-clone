@@ -1,5 +1,5 @@
 class ListsController < ApplicationController
-  before_action :set_list, only: [:show, :edit, :update, :destroy]
+  before_action :set_list, only: [:show, :edit, :update, :destroy, :move]
 
   # GET /lists
   # GET /lists.json
@@ -19,6 +19,11 @@ class ListsController < ApplicationController
 
   # GET /lists/1/edit
   def edit
+  end
+
+  def move
+    @list.insert_at(list_params[:position].to_i)
+    render action: :show
   end
 
   # POST /lists

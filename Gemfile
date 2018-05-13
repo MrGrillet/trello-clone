@@ -13,6 +13,7 @@ gem 'devise-bootstrap-views'
 gem 'bootstrap', '~> 4.0.0'
 gem 'sprockets-rails'
 gem 'jquery-rails'
+gem 'rails-ujs'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
