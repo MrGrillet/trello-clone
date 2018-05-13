@@ -1,7 +1,7 @@
 <template>
 <div>
   <div @click="editing=true" class="card card-body mb-3">
-    {{ card.name }}
+    <h6>{{ card.name }}</h6>
   </div>
 
   <div v-if='editing' class="modal-backdrop show"></div>
@@ -65,4 +65,5 @@
 </script>
 
 <style scoped>
+
 </style>

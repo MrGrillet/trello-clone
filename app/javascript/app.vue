@@ -34,8 +34,9 @@ export default {
     },
 
     listMoved: function(event) {
-      var data = new FormData
+      var data = new FormData      
       data.append("list[position]", event.newIndex + 1)
+
 
       Rails.ajax({
         beforeSend: () => true,
@@ -83,13 +84,13 @@ p {
 }
 
 .list {
+  background: #E2E4E6;
+  border-radius: 3px;
   display: inline-block;
-  width: 270px;
-  verticle-align: top;
   margin-right: 20px;
   padding: 10px;
-  background-color: #eee;
-  border-radius: 3px;
+  vertical-align: top;
+  width: 270px;
 }
 
 </style>

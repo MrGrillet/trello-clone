@@ -17,8 +17,9 @@
   import card from 'components/card'
 
   export default {
-    props: ["list"],
     components: { card, draggable },
+    props: ["list"],
+
     data: function() {
       return {
         editing: false,
@@ -49,7 +50,7 @@
           url: `/cards/${element.id}/move`,
           type: "PATCH",
           data: data,
-          dataType: "json",
+          dataType: "json"
         })
       },
 
