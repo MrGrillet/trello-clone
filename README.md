@@ -19,8 +19,9 @@ Currently exploring the concept of building a CRM, wanted to see how it might be
 * JavaScript
 * Ruby On Rails
 * Gems
-  * Bootstrap
-  * Acts as list
+  * Bootstrap 4: Styling
+  * Acts as list: Simple list ordering
+  * Devise: authentication
 * Database: PostgresQL
 * Deployed: Heroku
 
@@ -29,7 +30,8 @@ Currently exploring the concept of building a CRM, wanted to see how it might be
 * Ability to create cards and list without refreshing
 * Drag and drop both cards and lists
 * Responsive
-* Users can add and edit content they own (CRUD)
+* User signup and login
+* Edit cards in pop-up modal 
 
 
 Visit the project here:
